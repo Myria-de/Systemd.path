@@ -1,0 +1,8 @@
+[Unit]
+Description=Tastaturbeleuchtung ändern
+
+[Path]
+PathChanged=/home/te/tuxedo_keyboard.ini
+
+[Install]
+WantedBy=multi-user.target

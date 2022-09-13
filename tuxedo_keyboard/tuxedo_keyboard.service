@@ -1,0 +1,9 @@
+[Unit]
+Description=Script ausführen, wenn sich die Datei tuxedo_keyboard.ini ändert
+
+[Service]
+Type=simple
+ExecStart=/root/tuxedo_keyboard.sh
+
+[Install]
+WantedBy=multi-user.target
