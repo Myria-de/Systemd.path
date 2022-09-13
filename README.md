@@ -5,6 +5,8 @@ Beispiele für Systemd Path-Units
 
 Kopieren Sie die Dateien "backup.path" und "backup.service" in Ihr Home-Verzeichnis in den Ordner ".config/systemd/user". Passen Sie die Pfade in den Dateien für Ihre Zwecke an.
 
+Sollte der Ordner ".config" nicht sichtbar sein, dann öffnen Sie den Dateimanager und lassen Sie sich die versteckten Dateien anzeigen. Ubuntu-Nutzer gehen im Dateimanager Nautilus auf das Hamburger-Menü (drei horizontale Striche) und setzen ein Häkchen hinter "Verborgene Dateien anzeigen". Unter Linux Mint finden Sie die Option im Dateimanager Nemo unter "Ansicht -> Verborgene Dateien anzeigen". Navigieren Sie zum Ordner ".config" und erstellen Sie darin das Verzeichnis "systemd" und als Unterverzeichnis "user". In diesen Ordner gehören Systemd-Units, die mit den Rechten des jeweiligen Benutzers nach dessen Anmeldung automatisch gestartet werden.
+
 Öffnen Sie ein Terminal und führen Sie die folgenden beiden Befehlszeilen aus:
 ```
 systemctl --user enable backup.path
