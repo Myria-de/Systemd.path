@@ -1,0 +1,8 @@
+[Unit]
+Description=Ordner überwachen und bei Änderungen Backup-Dienst starten
+
+[Path]
+PathChanged=%h/Dokumente/Workdir
+
+[Install]
+WantedBy=default.target

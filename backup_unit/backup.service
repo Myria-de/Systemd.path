@@ -1,0 +1,4 @@
+[Unit]
+Description=Datensicherung mit rsync
+[Service]
+ExecStart=/usr/bin/rsync -a %h/Dokumente/Workdir/ /Backup/Dokumente/Workdir
