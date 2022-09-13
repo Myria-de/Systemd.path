@@ -29,4 +29,4 @@ Sie können jetzt in der Datei "tuxedo_keybord.ini" Werte ändern, tragen Sie be
 
 Das Beispielprogramm tuxedo_keyboard für ein Tuxedo Polaris 15 finden Sie unter https://github.com/Myria-de/tuxedo_keyboard. Laden Sie das Programm aus dem Ordner "bin" herunter.
 
-
+![](https://github.com/Myria-de/Systemd.path/blob/main/images/Tuxedo_Keyboard_GUI.png?raw=true)
